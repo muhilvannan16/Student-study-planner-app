@@ -40,3 +40,17 @@ def save_tasks(tasks):
     with open("data.txt", "w") as file:
         for t in tasks:
             file.write(f"{t['task']}|{t['done']}\n")
+
+def delete_task(tasks):
+    view_tasks(tasks)
+    if not tasks:
+        return
+    try:
+        index = int(input("Enter task number to delete: ")) - 1
+        if 0 <= index < len(tasks):
+            tasks.pop(index)
+            print("Task successfully deleted !")
+        else:
+            print("Invalid number.")
+    except ValueError:
+        print("Enter a valid number.")
