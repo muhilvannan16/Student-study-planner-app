@@ -7,9 +7,10 @@ while True:
     print("1. Add Task")
     print("2. View Tasks")
     print("3. Mark Task as Done")
-    print("4. Delete Task")
-    print("5. Exit")
-    
+    print("4. Priortize your task")
+    print("5. Delete tasks")
+    print("6. Exit")
+
     choice = input("Enter choice: ")
 
     if choice == "1":
@@ -19,8 +20,10 @@ while True:
     elif choice == "3":
         mark_done(tasks)
     elif choice == "4":
-        delete_task(tasks)
+        prioritize_tasks(tasks)
     elif choice == "5":
+        delete_task(tasks)
+    elif choice == "6":
         save_tasks(tasks)
         print("Goodbye!")
         break
