@@ -1,9 +1,9 @@
 from tasks import add_task, view_tasks, mark_done, load_tasks, save_tasks, delete_task, prioritize_tasks
 
-tasks = load_tasks()  # Load tasks from data.txt
+tasks = load_tasks()  
 
 while True:
-    print("\n--- Student Study Planner ---")
+    print("\n--- Welcome to Student Study Planner ---")
     print("1. Add Task")
     print("2. View Tasks")
     print("3. Mark Task as Done")
