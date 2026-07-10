@@ -7,7 +7,7 @@ A simple Python-based study planner to help users manage tasks, priorities, and 
 ## 👤 Author
 
 - Name: Ratneshwar Veerappan
-- GitHub: https://github.com/Rara3777
+- GitHub: https://github.com/Ratneshwar-Veerappan
 
 
 ---
